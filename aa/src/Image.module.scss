@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: greenyellow;
+}
+
+section {
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: blueviolet;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+}
+img {
+    border: 5px solid rgb(60, 127, 146);
+    text-align: center;
+    border-radius: 1rem;
+    transition: 0.3s all ease-in-out;
+    object-fit: content;
+    height: 90%;
+    width: 90%;
+
+}
+img:hover {
+    border: 5px solid rgb(130, 60, 146);
+    transform: scale(0.9);
+    cursor: zoom-in;
+    // cursor: zoom-in;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+p {
+    font-size: 1 rem;
+    text-align: center;
+    font-weight: 800;
+    color: blueviolet;
+}
+
+
+// .picture {
+//     width: 100%;
+//     height: 100%;
+//     transition: all 1s ease-in-out;
+//     object-fit: cover;
+//   }
+//   .transporter {
+//     width: 250px;
+//     height: 300px;
+//     overflow: hidden;
+//   }
+  
+//   .picture:hover {
+//     transform: scale(1.3);
+//     cursor: zoom-in;
+//   }
+//   .imageCard {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 1rem;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 1rem;
+//   }
+  
+
+// @import "variables";
+// .cardDiv {
+//     text-align: center;
+//   background-color: $paleta-pastel-3;
+//   width: 350px;
+//   height: 350px;
+//   border-radius: 20px;
+//   & .smlBtn {
+//     width: 50px;
+//     padding: 5px 10px;
+//     margin-right: 10px;
+//     background-color: $paleta-pastel-5;
+//     border:none;
+//   }
+//   & .lrgBtn{
+//      width: 100px;
+//     padding: 5px 10px;
+//     background-color: $paleta-pastel-1;
+//     border:none;
+//     &:hover{
+//         opacity:.5;
+//     }
+//   }
+//   & *{
+//     margin:5px;
+//   }
+// }
