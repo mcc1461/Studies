@@ -1,0 +1,19 @@
+import React from "react";
+
+const Card = (props) => {
+    console.log(props);
+
+  return (
+    <div>
+      <div className="card" />
+      <img src={props.image} className="card-img-top" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title text-danger">{props.cardTitle}</h5>
+        <p className="card-text">{props.cardText}</p>
+        <p className="card-text"><small className="fs-5 text-success">{props.updatedTime}</small></p>
+      </div>
+    </div>
+  );
+};
+
+export default Card;

@@ -1,0 +1,21 @@
+@import "../scss/variables";
+
+img {
+    width: 100px;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background: rebeccapurple;
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        text-decoration: none;
+        color: "navbarRightColor"
+        };
+    }
+
