@@ -34,7 +34,7 @@ function App() {
           <div className="col">
             <Collapse href="collapseExample3">
               <Card
-                cardTitle="Card Title III"
+                // cardTitle="Card Title III"
                 cardText="Lorem Ipsum Text III"
                 updatedTime="Last updated 1 mins ago"
                 image="https://picsum.photos/id/100/200/300"
