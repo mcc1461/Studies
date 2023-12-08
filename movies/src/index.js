@@ -7,9 +7,8 @@ const index = createRoot(root)
 index.render(
 
  <>
-
+ <h1 >merhaba</h1>
 <App />                                          
-<App></App>
  </>
 )
 
