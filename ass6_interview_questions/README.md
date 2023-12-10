@@ -4,28 +4,28 @@
 
 ## Description
 
-Project aims to create a Interview Accord App.
+Project aims to create a Question and Answer App.
 
 ## Problem Statement
 
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+- I am adding a new study to my portfolios.
 
 ## Project Skeleton
 
 ```
-Interview-Accordion (folder)
+Interview_Questions (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md         
 SOLUTION
 ├── public
 │     └── index.html
 ├── src
-│   ├── App.css
+│   ├── App.scss
 │   ├── App.js
 │   ├── components
-│   │   ├── Question.jsx
-│   │   ├── Header.jsx
-│   │   └── InterviewAccord.jsx
+│   │   ├── Questions.jsx
+│   │   ├── Interview.module.scss
+│   │   └── Interview.jsx
 │   ├── helper
 │   │   ├── data.js
 │   │   └── icons.js
@@ -37,7 +37,7 @@ SOLUTION
 
 ## Expected Outcome
 
-![interview](interview.gif)
+![interview](Toggle enabled questions and answers)
 
 ## Objective
 
@@ -65,18 +65,15 @@ Build a Interview Accord App using ReactJS.
 
 - Step 2: Build Interview Accord App.
 
-- Step 3: Push your application into your own public repo on Github
+- Step 3: Push application into my own public repo on Github
 
-- Step 4: Add project gif to your project and README.md file.
+- Step 4: README.md file.
 
 ## Notes
 
-- You can add additional functionalities to your app.
-- You can use [template](./template)
+- The importance of state and in which level need to be used.
+- Navigation among components
 
 ## Demo
 
-<a href="https://interviewaccord.vercel.app/" target="_blank">React Interview Accord Vercel</a>
-<a href="https://interview-accordion.netlify.app/" target="_blank">React Interview Accord Netlify</a>
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
+**<p align="center">&#9786; mcc1461 is here &#9997;</p>**

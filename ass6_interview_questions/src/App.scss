@@ -1,7 +1,7 @@
 
 @import '~bootstrap/scss/bootstrap.scss';
 /* The following line can be included in a src/App.scss */
-@import 'custom';
+
 
 .App {
   text-align: center;
@@ -26,7 +26,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(22, 244, 7);
+  font-weight: bolder;
+  text-shadow: 2px 2px 155px 2px  rgb(195, 248, 245);
 }
 
 .App-link {

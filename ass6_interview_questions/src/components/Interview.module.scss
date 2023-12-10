@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(199, 249, 99);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: rosybrown !important;
+}
+
+details {
+
+  summary{
+    color: rgb(72, 8, 182);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: start;
+    margin: 0.7rem 0;
+    padding: 0.5rem;
+    border: 3px solid rebeccapurple;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+  }
+
+  p {
+    color: rgb(6, 87, 6);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: justify;
+    padding: 0.7rem;
+    background-color: rgb(199, 249, 99);
+    border: 1px solid rgb(6, 40, 6);
+    border-radius: 0.5rem;
+    text-indent: 1.5rem;
+    font-style: italic;
+  }
+
+  color: rgb(6, 40, 6);
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: justify;
+  padding: 0.7rem;
+}
+
+

@@ -9,7 +9,6 @@ const Questions = () => {
       {data.map((item) => (
         <Interview item={item} selectedId={selectedId} setSelectedId={setSelectedId} key={item.id}></Interview>
       ))}
-      ; 
     </div>
   );
 };
