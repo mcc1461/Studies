@@ -1,20 +1,21 @@
 import "./App.css";
 
-const tahoe_peaks = [
-  { name: "Freel", elevation: 10891 },
-  { name: "Monument", elevation: 10067 },
-  { name: "Pyramid", elevation: 9983 },
-  { name: "Tallac", elevation: 9735 }
+const daltons = [
+  { name: "Joe", grade: 100 },
+  { name: "Jack", grade: 80 },
+  { name: "william", grade: 70 },
+  { name: "Averell", grade: 35 }
 ];
 
-function List({ data, renderItem, renderEmpty }) {
+const nobody = "Nobody from The Daltons Family!";
+function List({ data, gangs, empty }) {
   return !data.length ? (
-    renderEmpty
+    empty
   ) : (
     <ul>
-      {data.map((item) => (
-        <li key={item.name}>
-          {renderItem(item)}
+      {data.map((gang) => (
+        <li key={gang.name}>
+          {gangs(gang)}
         </li>
       ))}
     </ul>
@@ -24,11 +25,12 @@ function List({ data, renderItem, renderEmpty }) {
 function App() {
   return (
     <List
-      data={tahoe_peaks}
-      renderEmpty={<p>This list is empty</p>}
-      renderItem={(item) => (
+      data={daltons}
+      empty={nobody}
+      gangs={(gang) => (
         <>
-          {item.name} - {item.elevation} ft.
+          {gang.name} ::: {gang.grade} points
+          <div> ------- </div>
         </>
       )}
     />
